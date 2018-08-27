@@ -86,7 +86,7 @@ export default new Vuex.Store({
       if (newTotal < 0) {
         return
       }
-      if (newStock <= 0) {
+      if (newStock < 0) {
         return
       }
 
